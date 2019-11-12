@@ -63,13 +63,15 @@ class SatChecker:
         unsat_clauses = [index for index, unsat_clause in enumerate(self.clause_list_or) if unsat_clause is False]
         if self.clause_list_and:
             print('The provided solution in valid')
+            return True # For Unittest checking
         else:
             print('The provided solution is invalid')
             print('The Unsatisfied clauses are :')
             print('Clauses: ', unsat_clauses)
-
+            
             for index in unsat_clauses:
                 print(self.clause_list_clauses[index])
+            return False
 
 
 if __name__ == '__main__':
