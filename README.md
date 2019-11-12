@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dheerajalim/SAT_Checker.svg?branch=master)](https://travis-ci.org/dheerajalim/SAT_Checker)
+
 # SAT_Checker
 Satisfiability Checker for Propositional Satisfiability Problems(SAT)
 
